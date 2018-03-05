@@ -9,13 +9,7 @@
 }
 
 .top img{
-  position: relative;
- width: 200px;
- height: 200px;
- top: 50%;
- left: 50%;
-
- margin-left: -100px;
+ display: table;
 }
 
 .top {
@@ -42,6 +36,14 @@ div {
 
 @media screen and (max-width: 1000px) {
 
+  .city-sec{
+    display: flex;
+  }
+
+  .top {
+   float: left;
+  }
+
   .column {
     float: left;
     width: inherit;
@@ -56,13 +58,12 @@ div {
   }
 
 
+
 }
 
 @media screen and (max-width: 1000px) {
 
-.city-sec{
-  display: flex;
-}
+
 
 }
 
@@ -82,4 +83,14 @@ div {
   }
 
 
+}
+
+.left_col {
+   
+}
+
+.sec-one-wrapper{
+  width: 100%;
+
+  text-align: center;
 }
