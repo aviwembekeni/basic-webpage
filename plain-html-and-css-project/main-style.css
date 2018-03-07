@@ -34,7 +34,7 @@ div {
     margin: 5px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
 
   .city-sec{
     display: flex;
@@ -45,29 +45,47 @@ div {
   }
 
   .column {
+    margin-top: 10%;
     float: left;
     width: inherit;
 
   }
 
   row:after {
-   padding: 0;
+   padding-top: 10px;
    margin: 0;
    display: table;
    clear: both;
   }
 
+}
 
+@media only screen and (max-width: 1200px) and (min-width: 700px)  {
+
+.column span{
+  font-size: 20px;
+}
 
 }
 
-@media screen and (max-width: 1000px) {
+@media only screen and (max-width: 700px)  {
 
-
+.column span{
+  font-size: 12px;
+}
 
 }
 
-@media screen and (min-width: 1000px) {
+@media only screen and (min-width: 1200px)  {
+
+.column span{
+  font-size: 12px;
+}
+
+}
+
+
+@media screen and (min-width: 1201px) {
 
   .column {
     float: left;
@@ -88,4 +106,24 @@ div {
 .sec-one-wrapper{
   width: 100%;
   text-align: center;
+}
+
+.column img {
+
+transform: rotate(90deg);
+
+}
+
+.right_col img{
+  -moz-transform: rotate(90.0deg);
+  /* Opera 10.5 */
+  -o-transform: rotate(90.0deg);
+  /* Saf3.1+, Chrome */
+  -webkit-transform: rotate(90.0deg);
+  /* IE6,IE7 */
+  filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=0.083);
+  /* IE8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)";
+  /* Standard */
+  transform: rotate(90.0deg);
 }
