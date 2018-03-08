@@ -47,34 +47,20 @@
     overflow:hidden;
 }
 
-.anticlockwise-rotation img{
-  -moz-transform: rotate(-90.0deg);
-  /* Opera 10.5 */
-  -o-transform: rotate(-90.0deg);
-  /* Saf3.1+, Chrome */
-  -webkit-transform: rotate(-90.0deg);
-  /* IE6,IE7 */
-  filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=0.083);
-  /* IE8 */
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)";
-  /* Standard */
-  transform: rotate(-90.0deg);
-}
 
-
-.clockwise-rotation img{
+/*.clockwise-rotation img{
   -moz-transform: rotate(90.0deg);
   /* Opera 10.5 */
-  -o-transform: rotate(90.0deg);
+/*  -o-transform: rotate(90.0deg);
   /* Saf3.1+, Chrome */
-  -webkit-transform: rotate(90.0deg);
+/*   -webkit-transform: rotate(90.0deg);
   /* IE6,IE7 */
-  filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=0.083);
+/*   filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=0.083);
   /* IE8 */
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)";
+/*   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)";
   /* Standard */
-  transform: rotate(90.0deg);
-}
+/*   transform: rotate(90.0deg);
+}*/
 
 
 
