@@ -43,8 +43,9 @@
 
 .img-half {
   height: 200px;
-    width: 300px;
-    overflow:hidden;
+  position:relative;
+
+
 }
 
 
@@ -412,6 +413,10 @@ form {
 .u-max-full-width {
   max-width: 100%;
   box-sizing: border-box; }
+
+.u-max-full-height {
+}
+
 .u-pull-right {
   float: right; }
 .u-pull-left {
